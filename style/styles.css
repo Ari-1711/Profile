@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f4f6;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.name {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.info {
+    font-size: 14px;
+    color: #777;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.link {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.link:hover {
+    background-color: #0056b3;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.link:hover {
+    background-color: #0056b3;
+}
+
+.link i {
+    margin-right: 8px; /* Jarak antara ikon dan teks */
+}
+.personal-detail-link {
+    margin-top: 13px;
+}
+
+.details p {
+    font-size: 14px;
+    color: #555;
+    margin: 8px 0;
+}
