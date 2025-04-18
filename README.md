@@ -1,1 +1,24 @@
-# Profile
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Detail</title>
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="style/profile.jpg" alt="Profile Picture" class="profile-pic">
+            <h1 class="name">Ari Hermawan</h1>
+        </div>
+        
+        <div class="details">
+            <p><strong>Tanggal Lahir:</strong> 1 July 2005</p>
+            <p><strong>Zodiak:</strong> Cancer</p>
+            <p><strong>MBTI:</strong> INTJ</p>
+            <p><strong>Hobi:</strong> Menonton Anime, Mendengarkan Musik, Coding, Membaca Komik</p>
+            <p><strong>Hewan Kesukaan:</strong> Kucing</p>
+        </div>
+    </div>
+</body>
+</html>
